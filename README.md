@@ -33,6 +33,7 @@ Enter a number between 1 and 100.
 Follow the hints to guess higher or lower.
 Guess the secret number within five valid attempts.
 Choose whether to play again.
+
 📚 Concepts Practiced
 Variables and data types
 Loops and conditional statements
