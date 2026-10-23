@@ -1,46 +1,62 @@
-🎯 Python Number Guessing Game
+# 🎯 Terminal Number Guessing Game
 
-A simple, interactive number-guessing game built with Python. Guess the randomly generated number between 1 and 100 within five attempts!
+A polished, feature-rich command-line **Number Guessing Game** written in Python. It features colorful ANSI terminal text styling, attempt tracking with a strict limit, error handling for invalid inputs, and a continuous replay loop.
 
-✨ Features
-Random number generation
-Five attempts per game
-Higher and lower hints
-Colored terminal output
-Input validation
-Option to play again
-🛠️ Requirements
-Python 3.8 or newer
+---
 
-No external libraries are required.
+## ✨ Features
 
-🚀 How to Run
-Clone this repository:
-git clone https://github.com/Aryan-vishwakarma31/python-number-guessing-game.git
+* **ANSI Color Styling:** Eye-catching terminal output using bold text and colors for alerts, prompts, and success messages.
+* **Attempt Tracking:** Limits players to **5 attempts** per round to increase the challenge.
+* **Input Validation:** Gracefully handles non-integer entries and out-of-range guesses (1–100) without crashing.
+* **Replay Loop:** Option to instantly play another round or exit gracefully after a game ends.
+* **Zero Dependencies:** Built completely using Python's standard library.
 
-Navigate to the project directory:
-cd python-number-guessing-game
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have **Python 3.x** installed on your system. You can verify your installation by running:
+```bash
+python --version
+
+Installation & Execution
+
+Clone the repository:
+git clone [https://github.com/Aryan-vishwakarma31/100-Python-projects.git](https://github.com/Aryan-vishwakarma31/100-Python-projects.git)
+
+Navigate to the repository folder:
+cd 100-Python-projects
 
 Run the game:
-python guessing_game.py
+python guessing_number.py
+
+🕹️ How to Play
+Run the script in your terminal.
+
+The game will randomly choose a secret number between 1 and 100.
+
+You will have 5 attempts to guess the number. Type your guess when prompted and press Enter.
+
+Read the clues:
+
+•📉 "Too low! Guess higher."
+
+•📈 "Too high! Guess lower."
+
+Guess the correct number before your attempts run out to win! When the round ends, you can choose to play again (y/n).
+
+🛠️ Tech Stack & Concepts
+
+•Language: Python
+•Modules: random
+•Core Concepts : while and for loops
+•Conditional branching (if-elif-else)
+•Exception handling (try-except for ValueError)
+•ANSI escape sequences for text styling
 
 
-If needed, use python3 guessing_game.py instead.
-
-🎮 How to Play
-Run the program.
-Enter a number between 1 and 100.
-Follow the hints to guess higher or lower.
-Guess the secret number within five valid attempts.
-Choose whether to play again.
-
-📚 Concepts Practiced
-Variables and data types
-Loops and conditional statements
-Functions
-Exception handling
-Random number generation
-Basic terminal formatting
-📄 License
-
-This project is available under the MIT License.
+📝 License
+This project is open-source and available under the MIT License.
